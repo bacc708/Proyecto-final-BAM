@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Nunito:ital,wght@0,600;1,400&display=swap');
+
+.portada {
+    background-color: #b9b7b7;
+    box-shadow: 0px 0px 26px 0px #6F6E6E;
+    position: relative;
+    height: 50%;
+    width: 92%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imgportada {
+    height: 350px;
+    width: 92%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.dibujo {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    max-width: 95%;
+    height: auto;
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    color: rgb(32, 30, 30);
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 150px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navegador {
+    position: absolute;
+    top: 96%;
+    margin-left: 12px;
+    transform: translate(-1%, -5%);
+    width: 100%;
+    height: 60px;
+    text-align: justify;
+    background-color: rgb(32, 30, 30);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegador .logo img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3;
+}
+
+.navegador .logo {
+    cursor: pointer;
+}
+
+.navegador .logo img:hover {
+    transform: scale(2);
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+   }
+
+nav ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    margin-inline: 40px;
+    background-color: rgb(32, 30, 30);
+    color: #fff;
+    height: 60px;
+    width: 60px;
+}
+
+.navegador .textonav li a:hover {
+color: #f6bbbb;
+}
+
+#subscribe-form {
+    margin-bottom: 18px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    font-weight: 700;
+    color: #fff;
+    padding: 9px 25px;
+    margin-right: 30px;
+    background: #f6bbbb;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+
+.navegador button:hover {
+    background-color: rgb(32, 30, 30);
+    color: #f6bbbb;
+    transform: scale(1.1);
+}
+
+body {
+    background: #e0e0e0;
+    width: 97%;
+    height: auto;
+    
+}
+
+main {
+    background-color: #b9b7b7;
+    box-shadow: 0px 0px 26px 0px #6F6E6E;
+    height: 45%;
+    width: 92%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 100px;
+}
+
+.contenedor {
+	width: 98%;
+	max-width: auto;
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	gap: 5px;
+}
+
+.enlaces {
+	position: sticky;
+	top: 20px;
+	background: #f6bbbb;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.nav a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	color: rgb(32, 30, 30);
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav a:hover {
+	background: #f798f8;
+}
+
+.nav a.activo {
+	font-weight: 700;
+	background: rgb(32, 30, 30);
+	color: #fff;
+}
+
+.seccion {
+	padding: 0px 40px 40px 40px;
+	margin-bottom: 40px;
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+.seccion p {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+	color: rgb(32, 30, 30);
+    font-family: 'Nunito', sans-serif;
+}
+
+.seccion br {
+	margin-bottom: 20px;
+}
+
+.encabezado {
+	display: flex;
+	align-items: normal;
+	font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+	padding: 10px;
+    padding-left: 20px;
+	margin-bottom: 20px;
+    background-color: #f6bbbb;
+}
+
+.encabezado a {
+	display: inline-flex;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.img-libros {
+    width: auto;
+    height: 250px;
+}
+
+.img-autor {
+    width: auto;
+    height: 200px;
+}
+.intro {
+    display: flex;
+}
+
+.texto-intro {
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.texto-autor {
+    margin-left: 35px;
+    margin-top: 0px;
+}
+
+.frases {
+    font-style: oblique;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    box-shadow: 0px 0px 26px 0px #6F6E6E;
+    padding: 5px;
+    height: 45%;
+    width: 91%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer i {
+    font-size: 20px;
+    color: #f6bbbb;
+    margin-left: 25px;
+    cursor: pointer;
+}
